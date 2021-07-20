@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+	<data>
+		<record id="bt_sale_order_form_view" model="ir.ui.view">
+			<field name="name">sale.order.form</field>
+			<field name="model">sale.order</field>
+			<field name="inherit_id" ref="sale.view_order_form"/>
+			<field name="arch" type="xml">
+				
+				<xpath expr="//field[@name='payment_term_id']" position="after">
+
+					<field name="name_patient" attrs="{'invisible':[('name_patient','=',False)]}" readonly="1"/>
+					<field name="pla_service" attrs="{'invisible':[('pla_service','=',False)]}" readonly="1"/>
+					
+				</xpath>
+				
+			</field>
+		</record>
+
+	</data>
+</odoo>
