@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+	<data>
+
+		<record id="group_bt_menu_stock" model="res.groups">
+			<field name="name">Inventario</field>
+			<field name="category_id" ref="bt_menu_special.bt_menu_special_category"/>
+			<field name="comment">Habilita el menú de Inventario</field>
+		</record>
+
+	</data>	
+</odoo>

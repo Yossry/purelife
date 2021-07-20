@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+	<data>
+		<record id="bt_menu_special_category" model="ir.module.category">
+			<field name="name">Boostech - Menú Especial</field>
+			<field name="description">Habilita los menús con nueva seguridad.</field>
+			<field name="sequence">10000</field>
+		</record>
+		
+	</data>	
+</odoo>
