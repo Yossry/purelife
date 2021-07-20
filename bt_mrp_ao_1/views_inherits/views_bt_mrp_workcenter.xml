@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+	<data>
+		<record id="bt_mrp_workcenter_form_view" model="ir.ui.view">
+			<field name="name">mrp.workcenter.form</field>
+			<field name="model">mrp.workcenter</field>
+			<field name="inherit_id" ref="mrp.mrp_workcenter_view"/>
+			<field name="arch" type="xml">
+				
+				<xpath expr="//field[@name='company_id']" position="after">
+
+					<field name="user_view_ids" widget="many2many_tags" options="{'no_open':True,'no_create':True,'no_edit':True}"/>
+					
+				</xpath>
+				
+			</field>
+		</record>
+
+	</data>
+</odoo>
