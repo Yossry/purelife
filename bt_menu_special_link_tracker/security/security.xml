@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+	<data>
+
+		<record id="group_bt_menu_link_tracker" model="res.groups">
+			<field name="name">Rastr. enlaces</field>
+			<field name="category_id" ref="bt_menu_special.bt_menu_special_category"/>
+			<field name="comment">Habilita el menú de Rastr. enlaces.</field>
+		</record>
+
+	</data>	
+</odoo>

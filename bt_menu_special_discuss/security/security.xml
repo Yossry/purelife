@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+	<data>
+
+		<record id="group_bt_menu_special_discuss" model="res.groups">
+			<field name="name">Conversaciones</field>
+			<field name="category_id" ref="bt_menu_special.bt_menu_special_category"/>
+			<field name="comment">Habilita el menú de Conversaciones.</field>
+		</record>
+
+	</data>	
+</odoo>

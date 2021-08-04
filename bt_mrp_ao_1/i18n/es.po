@@ -1,0 +1,53 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* bt_mrp_ao_1
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 14.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-14 21:10+0000\n"
+"PO-Revision-Date: 2021-07-14 15:11-0600\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"Language: es\n"
+"X-Generator: Poedit 3.0\n"
+
+#. module: bt_mrp_ao_1
+#: model:res.groups,name:bt_mrp_ao_1.group_bt_mrp_workcenter_ao_1
+msgid "BT - Bloquea al usuario a ver Centro de Trabajo"
+msgstr "BT - Bloquea al usuario a ver Centro de Trabajo"
+
+#. module: bt_mrp_ao_1
+#: model:res.groups,comment:bt_mrp_ao_1.group_bt_mrp_workcenter_ao_1
+msgid "Bloquea a los usuario para ver ordenes de trabajo por Centro de Trabajo"
+msgstr "Bloquea a los usuario para ver ordenes de trabajo por Centro de Trabajo"
+
+#. module: bt_mrp_ao_1
+#: model:ir.model.fields,field_description:bt_mrp_ao_1.field_mrp_workcenter__display_name
+msgid "Display Name"
+msgstr "Nombre mostrado"
+
+#. module: bt_mrp_ao_1
+#: model:ir.model.fields,field_description:bt_mrp_ao_1.field_mrp_workcenter__id
+msgid "ID"
+msgstr "ID"
+
+#. module: bt_mrp_ao_1
+#: model:ir.model.fields,field_description:bt_mrp_ao_1.field_mrp_workcenter____last_update
+msgid "Last Modified on"
+msgstr "Última modificación el"
+
+#. module: bt_mrp_ao_1
+#: model:ir.model.fields,field_description:bt_mrp_ao_1.field_mrp_workcenter__user_view_ids
+msgid "Usuarios"
+msgstr "Usuarios"
+
+#. module: bt_mrp_ao_1
+#: model:ir.model,name:bt_mrp_ao_1.model_mrp_workcenter
+msgid "Work Center"
+msgstr "Centro de producción"
